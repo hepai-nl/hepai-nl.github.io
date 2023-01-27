@@ -349,7 +349,7 @@ a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, #07085d 60%, transparent);
+  background: linear-gradient(to right, #01010e 0%, transparent);
 }
 .overlay-image {
   position: absolute;
@@ -372,7 +372,7 @@ a:hover {
 }
 
 .bg-secondary {
-  background: #07085d !important;
+  background: #01010e !important;
 }
 
 .text-primary {
@@ -380,7 +380,7 @@ a:hover {
 }
 
 .text-secondary {
-  color: #07085d !important;
+  color: #01010e !important;
 }
 
 .text-gradient-primary {
@@ -535,7 +535,7 @@ textarea.form-control {
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
-  /* background-color: #000000; */
+  background-color: transparent;
   padding: 15px 100px;
 }
 @media (max-width: 991px) {
@@ -546,7 +546,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #07085d;
+    background: #01010e;
   }
 }
 
@@ -568,7 +568,6 @@ textarea.form-control {
   left: -10px;
   border-radius: 0;
   /* background: #fff; */
-  background: transparent;
 }
 .navbar .dropdown-menu.show {
   display: block !important;
@@ -586,10 +585,9 @@ textarea.form-control {
   margin-bottom: 10px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  /* color: #fff; */
-  background: transparent;
-}
+/* .navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+} */
 
 .banner {
   min-height: 100vh;
@@ -609,17 +607,17 @@ textarea.form-control {
   transition: inherit;
 }
 .hover-bg-secondary:hover {
-  background: #07085d;
+  background: transparent;
 }
 .hover-bg-secondary:hover * {
   color: #fff;
 }
 .hover-bg-secondary.active {
-  background: #07085d;
+  background: transparent;
 }
 .hover-bg-secondary.active * {
   color: #fff;
-}
+} */
 
 .hover-bg-primary {
   transition: 0.2s ease;
